@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    azure:
+      storage:
+        blob:
+          account-name: adjackson
+          account-key: t/kbjdc28G7+UqRGyX7bWxi4Eu3Ao0hkWYHD3f9OKsGLt3X0jhXdWfG0n9YJTQu5hB1ul7t7OxiO+AStd/8qEg==
+          endpoint: https://adjackson.blob.core.windows.net/
