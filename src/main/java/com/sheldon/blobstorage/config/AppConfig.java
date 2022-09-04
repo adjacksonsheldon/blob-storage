@@ -10,4 +10,10 @@ public class AppConfig {
 
     @Value("${AZURE_STORAGE_CONNECTION_STRING}")
     private String connectStr;
+
+    @Value("${SOURCE_FILES}")
+    private String sourceFiles;
+
+    @Value("${CONTAINER_NAME}")
+    private String containerName;
 }
